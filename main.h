@@ -1,7 +1,5 @@
 #ifndef MAIN_H
 #define MAIN_H
-
-int _putchar(char);
 #include <stdarg.h>
 #include <stdio.h>
 #include <unistd.h>
@@ -115,6 +113,6 @@ int is_digit(char);
 
 long int convert_size_number(long int num, int size);
 long int convert_size_unsgnd(unsigned long int num, int size);
-int _printf(const char *format, ...);
-void num(int r, int n);
+
 #endif /* MAIN_H */
+
